@@ -1,6 +1,12 @@
 # BASE DE DATOS `SENA`
 
+## MODELO E-R
 
+![Mi Imagen](./archivosGuia/ER.png)
+
+## MODELO RELACIONAL
+
+![Mi Imagen](./archivosGuia/R.png)
 
 ### `PUNTOS A RESOLVER:`
 
