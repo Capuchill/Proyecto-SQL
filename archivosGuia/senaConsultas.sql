@@ -170,7 +170,7 @@ INSERT INTO especialidad (nombre) VALUES ('')
 
 -- Agregar estado de matricula
 
-alter TABLE matriculas add COLUMN estado_matricula VARCHAR(100); 
+ALTER TABLE matriculas ADD COLUMN estado_matricula VARCHAR(100); 
 
 -- Agregar el campo edad a aprendiz
 
