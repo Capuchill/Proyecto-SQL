@@ -174,11 +174,13 @@ ALTER TABLE matriculas ADD COLUMN estado_matricula VARCHAR(100);
 
 -- Agregar el campo edad a aprendiz
 
-alter table aprendiz add COLUMN edad INT;
+ALTER TABLE aprendiz ADD COLUMN edad INT;
 
 -- Agregar el campo de duración de los cursos
 
-alter Table cursos_ruta ADD COLUMN duracion TIME;
+
+-- Dado que, el atributo pertenece a la relacion entre ruta y curso se agrega a la tabla que las une.
+ALTER TABLE cursos_ruta ADD COLUMN duracion TIME;
 
 SELECT nombre_aprendiz , apellido_aprendiz, edad
 FROM aprendiz
