@@ -1,4 +1,7 @@
-## BASE DE DATOS `SENA`
+# BASE DE DATOS `SENA`
+
+### <span style="color:green">PUNTOS A RESOLVER: </span>
+
 **1. Agregue un campo Estado_Matrícula a la tabla Matrícula que indique si el estudiante se encuentra “En Ejecución”, “Terminado” o “Cancelado”**
 
 ~~~sql
