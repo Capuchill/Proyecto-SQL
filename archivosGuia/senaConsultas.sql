@@ -1,5 +1,7 @@
 /* 2023-11-18 19:04:50 [15 ms] */ 
 use sena;
+
+-- si 3.14
 show tables;
 /* 2023-11-18 19:28:11 [4 ms] */ 
 show tables;
