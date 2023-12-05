@@ -6,7 +6,7 @@
 
 ## MODELO RELACIONAL
 
-![Mi Imagen](./archivosGuia/R.png)
+![Mi Imagen](./archivosGuia/R2.png)
 
 ### `PUNTOS A RESOLVER:`
 
@@ -123,6 +123,6 @@ SELECT nombre_instructor,apellido_instructor FROM instructores where id_instruct
 
 >   ![Mi Imagen](./consultasResultados/7.png)
 
-## Gracia por ver :3
+## Gracias por ver :3
 
 
