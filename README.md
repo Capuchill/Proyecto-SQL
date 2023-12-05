@@ -103,16 +103,14 @@ WHERE matriculas.estado_matricula = 'Terminado';
 
 ~~~sql
 SELECT a.nombre_aprendiz, a.apellido_aprendiz 
-FROM aprendiz a 
-INNER JOIN matriculas m ON m.id_aprendiz = a.id_aprendiz
-INNER JOIN rutas r on r.id_ruta = m.id_ruta
-INNER JOIN cursos_ruta ON cursos_ruta.id_ruta = r.id_ruta
-WHERE cursos_ruta.id_curso = 17;
+FROM cursos_aprendiz ca 
+INNER JOIN aprendiz a ON a.id_aprendiz = ca.id_aprendiz
+WHERE ca.id_curso = 17;
 ~~~
 
 ***DATOS DE CONSULTA***:
 
->   ![Mi Imagen](./consultasResultados/6.png)
+>   ![Mi Imagen](./consultasResultados/9_2.png)
 
 
 **10. Nombres de Instructores que no tienen curso asignado.**
@@ -124,5 +122,7 @@ SELECT nombre_instructor,apellido_instructor FROM instructores where id_instruct
 ***DATOS DE CONSULTA***:
 
 >   ![Mi Imagen](./consultasResultados/7.png)
+
+## Gracia por ver :3
 
 
