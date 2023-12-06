@@ -6,7 +6,7 @@
 
 ## MODELO RELACIONAL
 
-![Mi Imagen](./archivosGuia/R2.png)
+![Mi Imagen](./archivosGuia/R3.png)
 
 ### `PUNTOS A RESOLVER:`
 
